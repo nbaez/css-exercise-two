@@ -2,7 +2,7 @@ body {
   background-color: #ffffff;
   color: #0C0C0C;
   line-height: 130%;
-  font-size: 100%;
+  font-size: 16px;
 }
 
 nav {
@@ -12,19 +12,22 @@ nav {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
 a:link { color:#ffffff; } /* unvisited */
 a:visited { color:#444444; } /* visited */
 a:hover { color:#0c0c0c; } /* mouse over */
 a:active { color:#444444; } /* selected */
 
 h1 {
-	font-size: 48px;
-  line-height: 150%;
+	font-size: 4em;
+  line-height: 1.5em;
 }
 
 h3 {
-	font-size: 24px;
-  line-height: 120%;
+	font-size: 2em;
+  line-height: 1em;
   padding-bottom: 10px;
 }
 
@@ -66,7 +69,6 @@ article {
   float: right;
 }
 
-
 .container {
   margin: 0 auto;
   width: 50%;
@@ -74,8 +76,12 @@ article {
 
 .story-text {
     text-align: left;
-    font-size: 100%;
-  	line-height: 130%;
+    font-size: 1em;
+  	line-height: 1.5em;
     padding-top: 16px;
   	padding-bottom: 16px;
+}
+
+p {
+  margin-top: 1em;
 }
